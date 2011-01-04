@@ -2,6 +2,7 @@ Bugs:
 * Changing orientation takes user back to index.html
 
 Features:
+* Add test app (figure out what unit tests even make sense)
 * Styling:
   + List links (make them look like buttons)
   + Visited links shouldn't change color
