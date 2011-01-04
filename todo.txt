@@ -1,0 +1,10 @@
+Bugs:
+* Changing orientation takes user back to index.html
+
+Features:
+* Styling:
+  + List links (make them look like buttons)
+  + Visited links shouldn't change color
+  + Make h1s look pretty
+  
+Done:

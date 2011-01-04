@@ -1,0 +1,1 @@
+A really trivial port of the EWG iPhone shopper app to Android.  All data comes from http://www.foodnews.org/.
