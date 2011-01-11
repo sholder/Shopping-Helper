@@ -6,4 +6,5 @@
     <string name="dirty_list_name">Dirty Dozen</string>
     <string name="clean_list_name">Clean 15</string>
     <string name="full_list_name">Full List</string>
+    <string name="show_list_label">Shopping Helper</string>
 </resources>
