@@ -1,12 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:padding="30dip"
     >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/hello"
-    />
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		>
+
+		<TextView 
+			android:text="@string/intro_title" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginBottom="15dip"
+			android:textSize="18sp" 
+			/>
+		<TextView 
+			android:text="@string/intro_text" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginBottom="25dip"
+			android:textSize="13sp" 
+			/>
+			
+		<Button 
+			android:text="@string/dirty_list_name" 
+			android:id="@+id/dirty_button" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+			
+		<Button 
+			android:text="@string/clean_list_name" 
+			android:id="@+id/clean_button" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+			
+		<Button 
+			android:text="@string/full_list_name" 
+			android:id="@+id/full_button" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+
+	</LinearLayout>
 </LinearLayout>

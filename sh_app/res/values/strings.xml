@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, DisplayLists!</string>
+	<string name="intro_title">Shopper\'s Guide to Pesticides</string>
+    <string name="intro_text">EWG\'s Shopper\'s Guide to Pesticides features the fruits and veggies with the most and least pesticides, so you\'ll know which to buy organic and which conventionally-grown ones are okay if organic isn\'t available.</string>
     <string name="app_name">Shopping Helper</string>
+    <string name="dirty_list_name">Dirty Dozen</string>
+    <string name="clean_list_name">Clean 15</string>
+    <string name="full_list_name">Full List</string>
 </resources>
