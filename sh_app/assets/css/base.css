@@ -1,1 +1,16 @@
 /* Style stuff goes here */
+body {
+    font-size: 0.875em;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color:black;
+}
+
+h1 {
+    font-size: 1.25em;
+}

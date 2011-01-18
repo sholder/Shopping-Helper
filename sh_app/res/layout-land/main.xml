@@ -3,8 +3,8 @@
     android:orientation="horizontal"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:padding="30dip"
-    android:background="@color/main_background"
+    android:padding="15dip"
+  	android:background="@color/main_background"
     >
 	<LinearLayout
 		android:orientation="vertical"
@@ -18,7 +18,7 @@
 			android:layout_width="wrap_content" 
 			android:layout_height="wrap_content"
 			android:layout_gravity="center"
-			android:layout_marginBottom="15dip"
+			android:layout_marginBottom="10dip"
 			android:textSize="18sp" 
 			android:textColor="@color/main_text"
 			/>
@@ -27,7 +27,7 @@
 			android:layout_width="wrap_content" 
 			android:layout_height="wrap_content"
 			android:layout_gravity="center"
-			android:layout_marginBottom="25dip"
+			android:layout_marginBottom="15dip"
 			android:textSize="13sp" 
 			android:textColor="@color/main_text"
 			/>
