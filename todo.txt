@@ -1,5 +1,5 @@
 Bugs:
-* Changing orientation takes user back to index.html
+* Changing orientation on main screen makes buttons scroll off screen
 
 Features:
 * Add test app (figure out what unit tests even make sense)
@@ -13,3 +13,4 @@ Features:
 Done:
 * Back hardware button should work
 * Back links should be always visible on all pages (Removed, back button fixed)
+* Changing orientation takes user back to index.html
