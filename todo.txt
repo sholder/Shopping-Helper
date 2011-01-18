@@ -1,9 +1,7 @@
 Bugs:
 * Changing orientation takes user back to index.html
-* Back hardware button should work
 
 Features:
-* Back links should be always visible on all pages
 * Add test app (figure out what unit tests even make sense)
 * Create an icon
 * Styling:
@@ -12,3 +10,5 @@ Features:
   + Make h1s look pretty
   
 Done:
+* Back hardware button should work
+* Back links should be always visible on all pages (Removed, back button fixed)

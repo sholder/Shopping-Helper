@@ -3,7 +3,6 @@ package com.teamholder.shopping;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 
@@ -30,13 +29,17 @@ public class DisplayLists extends Activity implements OnClickListener {
 		Intent i = new Intent(this, ShowList.class);
 		switch (v.getId()) {
 		case R.id.dirty_button:
-			i.putExtra(LIST_URL, "file://android_asset/html/dirty_dozen.html");
+			i.putExtra(LIST_URL, "file:///android_asset/html/dirty_dozen.html");
+			break;
+		case R.id.clean_button:
+			i.putExtra(LIST_URL, "file:///android_asset/html/clean_15.html");
+			break;
+		case R.id.full_button:
+			i.putExtra(LIST_URL, "file:///android_asset/html/full_list.html");
 			break;
 		default:
 			return;
 		}
-		Log.i("DisplayLists", "about to start activity");
 		startActivity(i);
-		Log.i("DisplayLists", "activity started");
 	}
 }
