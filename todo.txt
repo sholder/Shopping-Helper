@@ -4,6 +4,7 @@ Bugs:
 Features:
 * Add test app (figure out what unit tests even make sense)
 * Create an icon
+* Get command line build working
 * Styling:
   + List links (make them look like buttons)
   + Visited links shouldn't change color
