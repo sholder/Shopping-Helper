@@ -8,7 +8,8 @@ import android.view.View.OnClickListener;
 
 public class DisplayLists extends Activity implements OnClickListener {
 	
-	static final String LIST_URL = "com.teamholder.shopping.ListUrl";
+	// change back to package private
+	public static final String LIST_URL = "com.teamholder.shopping.ListUrl";
 	
     /** Called when the activity is first created. */
     @Override
